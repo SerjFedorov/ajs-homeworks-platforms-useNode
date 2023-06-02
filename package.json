@@ -1,22 +1,22 @@
 {
   "name": "@serjfedorov/ajs",
   "version": "1.0.0",
-  "description": "",
   "main": "dist/index.js",
   "scripts": {
     "build": "webpack --mode production",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SerjFedorov/ajs-homeworks-platforms-create.git"
+    "url": "git+https://github.com/SerjFedorov/ajs-homeworks-platforms-useNode.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/SerjFedorov/ajs-homeworks-platforms-create/issues"
+    "url": "https://github.com/SerjFedorov/ajs-homeworks-platforms-useNode/issues"
   },
-  "homepage": "https://github.com/SerjFedorov/ajs-homeworks-platforms-create#readme",
+  "homepage": "https://github.com/SerjFedorov/ajs-homeworks-platforms-useNode#readme",
   "devDependencies": {
     "@babel/cli": "^7.21.5",
     "@babel/core": "^7.22.1",
@@ -26,7 +26,10 @@
     "webpack-cli": "^5.1.1"
   },
   "publishConfig": {
-    "registry":"https://npm.pkg.github.com/"
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "description": "",
+  "dependencies": {
+    "@serjfedorov/ajs": "^1.0.0"
   }
-
 }
